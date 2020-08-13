@@ -1,0 +1,48 @@
+body{
+
+    background: url('360393.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+*{
+    box-sizing: border-box;
+}
+form{
+        
+    background: rgba(252, 252, 252, 0.9);
+    width: 98%;
+    max-width: 480px;
+    margin: 10% auto;
+     color: forestgreen;
+    padding: 2% 5%;
+}
+input{
+
+    width: 100%;
+    padding:25px 10px 10px 20px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.8) ;
+    color: #000000;
+    margin-bottom: 32px;
+    border-radius: 5px;
+    border: 1px solid #a7d3ad;
+    outline: 0;
+}
+div.input{
+
+    position: relative;
+}
+div.input label{
+
+    position: absolute;
+    font-size: 20px;
+    top: 15px;
+    left: 20px;
+    color: #989898;
+    transition: all 0.2s linear;
+}
+input[type="submit"]{
+
+    padding: 15px;
+}
